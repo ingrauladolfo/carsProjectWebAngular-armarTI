@@ -1,0 +1,20 @@
+<!-- <p>navbar works!</p> -->
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <button mat-button class="example-icon" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <div class="spacer"></div>
+        Cars - Armar TI
+        <div class="spacer"></div>
+        <button mat-button>
+            Lorem ipsum dolor sit.
+            <!-- <a href="https://rompopecarmelita.com/" target="_blank"> <img src="../../../assets/images/nav-bar/mexico.png" width="50" height="50"
+                    alt="Change to Spanish Version"> </a><img src="../../../assets/images/nav-bar/carmelita-modified.png" class="mt-2" width="150" height="50"
+                    alt="Rompope Carmelita logo"> -->
+        </button>
+    </mat-toolbar-row>
+</mat-toolbar>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item [routerLink]="['/']">Inicio</button>
+</mat-menu>

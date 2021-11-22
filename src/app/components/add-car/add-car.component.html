@@ -1,0 +1,259 @@
+<!-- <p>add-car works!</p> -->
+<div class="container mt-5">
+    <div class="row">
+        <form>
+            <div class="form-row align-items-center">
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Marca del vehículo"
+                  size="45"
+                  maxlength="45"
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="number"
+                  placeholder="Modelo del vehículo"
+                  min="1"
+                  pattern="^[0-9]+"
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Línea del vehículo"
+                  maxlength="45"
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Serie del vehículo"
+                  maxlength="45"
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Color del vehículo"
+                  maxlength="45"
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="number"
+                  placeholder="NIV del vehículo"
+                  pattern="^[0-9]+"
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Alias del vehículo"
+                  maxlength="255"
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Origen del vehículo"
+                  maxlength="5"
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Motor del vehículo"
+                  maxlength="45"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Cilindros del vehículo"
+                  maxlength="45"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Puertas del vehículo"
+                  maxlength="45"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Versión"
+                  maxlength="45"
+                  required
+                />
+              </div>
+              <div class="col-auto"><input type="file" accept="image/*" required /></div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Combustible"
+                  maxlength="45"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Velocidades"
+                  maxlength="45"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="HRP"
+                  maxlength="45"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="placa"
+                  maxlength="10"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="number"
+                  placeholder="Verificación"
+                  pattern="^[0-9]+"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Pedimento"
+                  maxlength="45"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Aduana"
+                  maxlength="45"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="number"
+                  placeholder="Subtotal"
+                  min="0.01"
+                  step="0.01"
+                  pattern="^[0-9]+"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="number"
+                  placeholder="I.V.A"
+                  min="0.01"
+                  step="0.01"
+                  pattern="^[0-9]+"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  class="form-control"
+                  type="number"
+                  placeholder="Total"
+                  pattern="^[0-9]+"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <select required class="form-control">
+                  <option>Select your payment method</option>
+                  <option value="Credit card">Credit card</option>
+                  <option value="Business points">Business points</option>
+                  <option value="Debit card">Debit card</option>
+                </select>
+              </div>
+              <div class="col-auto">
+                <input
+                  type="text"
+                  placeholder="Descuento factura"
+                  maxlength="200"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <input
+                  type="text"
+                  placeholder="Número de factura"
+                  maxlength="45"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <label class="col-form-label" for="">Fecha de compra</label>
+                <input type="date" required />
+              </div>
+              <div class="col-auto">
+                <input type="text" placeholder="Status" maxlength="10" required />
+              </div>
+              <div class="col-auto">
+                <input
+                  type="text"
+                  placeholder="Póliza de seguro"
+                  maxlength="45"
+                  required
+                />
+              </div>
+              <div class="col-auto">
+                <label class="col-form-label" for="">Fecha de vencimiento</label>
+                <input type="date" value="00/00/000" />
+              </div>
+              <div class="col-auto">
+                <input type="text" placeholder="Aseguradora" maxlength="90" />
+              </div>
+              <div class="col-auto">
+                <input type="tarjeta" placeholder="Tarjeta" maxlength="45" />
+              </div>
+              <div class="col-auto">
+                <button type="submit">Save</button>
+                <button [routerLink]="['/']" type="submit">Return</button>
+              </div>
+            </div>
+          </form>
+    </div>
+</div>
